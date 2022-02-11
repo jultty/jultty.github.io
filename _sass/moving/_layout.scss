@@ -219,8 +219,7 @@
   text-decoration: none;
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: $link-hover-color;
   }
 }
 

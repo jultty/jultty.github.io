@@ -156,7 +156,8 @@ a {
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
+  color: $link-hover-color;
+  transition: 2000ms;
   }
 }
 

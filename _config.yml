@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: jultty 
-email: 
-description: >- # this means to ignore newlines until "baseurl:"
-  Uma descrição aqui
+title: jultty
+email:
+description: Uma descrição aqui
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: jultty.github.io
 url: "https://jultty.github.io"
@@ -33,6 +32,26 @@ github_username: jultty
 remote_theme: huangyz0918/moving
 plugins:
   - jekyll-feed
+
+collections:
+    tags:
+        output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
