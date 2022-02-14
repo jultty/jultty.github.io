@@ -2,6 +2,7 @@
 layout: post
 title:  "Interface"
 date:   2022-02-10 21:44:39 -0300
+categories: termo
 tags: ilc
 ---
 

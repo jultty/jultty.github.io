@@ -4,6 +4,7 @@ author: jultty
 baseurl: ""
 domain: jultty.github.io
 url: "https://jultty.github.io"
+permalink: /:categories/:title:output_ext
 twitter_username: 
 github_username: jultty 
 avatar_url: /assets/images/venn.svg
