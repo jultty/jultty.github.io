@@ -6,9 +6,9 @@ layout: default
 
 <p>
   {{ page.date | date: "%d/%m/%Y" }}
-  {% assign tag = site.tags | where: 'short_name', page.tags | first %}
+  {% assign tag = site.tags | where: short_name, page.tags | first %}
   {% if tag %}
-  <a href="{{ tag.url }}">#{{ tag.short_name }}</a>
+  &nbsp; <a href="{{ tag.url }}">#{{ tag.short_name }}</a>
   {% endif %}
 </p>
 
