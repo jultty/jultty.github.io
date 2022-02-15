@@ -5,13 +5,36 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="13.723742cm"
-   height="13.416929cm"
-   viewBox="0 0 137.23741 134.16929"
+   width="500"
+   height="500"
+   viewBox="0 0 82.29 82.29"
    version="1.1"
    id="svg8">
   <defs
-     id="defs2" />
+     id="defs2">
+    <filter
+       height="1.012"
+       y="-0.006"
+       width="1.012"
+       x="-0.006"
+       id="filter1277"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur1279"
+         stdDeviation="0.11678489" />
+    </filter>
+    <filter
+       height="1.012"
+       y="-0.006"
+       width="1.012"
+       x="-0.006"
+       id="filter1289"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur1291"
+         stdDeviation="0.11678489" />
+    </filter>
+  </defs>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -25,26 +48,22 @@
     </rdf:RDF>
   </metadata>
   <rect
-     y="-1.0253906e-07"
-     x="-4.140625e-07"
-     height="134.1693"
-     width="137.23741"
+     y="-4.5776366e-07"
+     x="-4.5776366e-07"
+     height="82.290001"
+     width="82.290001"
      id="rect836"
-     style="opacity:1;fill:#e9e9e9;fill-opacity:1;stroke:none;stroke-width:0.04064486;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <g
-     transform="matrix(0.87854251,0,0,0.87854251,-15.677231,-68.22039)"
-     id="g834">
-    <circle
-       style="opacity:1;fill:#008080;fill-opacity:0.25614038;stroke:none;stroke-width:0.047625;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path815"
-       cx="75.904549"
-       cy="136.10374"
-       r="48.108513" />
-    <circle
-       style="opacity:1;fill:#ff4100;fill-opacity:0.25614038;stroke:none;stroke-width:0.047625;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path815-3"
-       cx="115.99496"
-       cy="171.91786"
-       r="48.108513" />
-  </g>
+     style="opacity:1;fill:#e3e3e3;fill-opacity:1;stroke:none;stroke-width:0.02464847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     r="23.356977"
+     cy="32.451015"
+     cx="31.41293"
+     id="path815"
+     style="opacity:1;fill:#ff6600;fill-opacity:0.25490196;stroke:none;stroke-width:0.02312223;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1289)" />
+  <circle
+     r="23.356977"
+     cy="49.838985"
+     cx="50.877071"
+     id="path815-3"
+     style="opacity:0.99;fill:#800000;fill-opacity:0.25490196;stroke:none;stroke-width:0.02312223;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1277)" />
 </svg>
