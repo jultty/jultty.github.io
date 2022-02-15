@@ -8,6 +8,7 @@ permalink: /:categories/:title:output_ext
 twitter_username: 
 github_username: jultty 
 avatar_url: /assets/images/venn.svg
+favicon: favicon.ico
 
 # Build settings
 #theme: moving
