@@ -1,31 +1,12 @@
-Um caderno de pesquisas sobre computação e sistemas para Internet feito com Jekyll.
+Um caderno de pesquisa em computação e sistemas para Internet, feito com foco no registro dos significados e relações semânticas entre as palavras.
 
-Baseado no tema [Moving](https://github.com/huangyz0918/moving).
+Voltado para o estudo de programação e outras áreas ligadas à computação, não é uma recurso que tenta ensinar como escrever código mas sim apoiar esse processo através de um mapeamento de termos relevantes.
 
-Estrutura:
-```bash
-.
-├── 404.html
-├── _config.yml
-├── Gemfile
-├── Gemfile.lock
-├── index.md
-├── _layouts
-│   ├── home.html
-│   ├── post.html
-│   └── tag.html
-├── _posts
-│   ├── 2022-02-10-ilc.md
-│   └── 2022-02-12-comando.md
-├── README.md
-├── _sass
-│   ├── moving
-│   │   ├── _base.scss
-│   │   └── _layout.scss
-│   └── moving.scss
-├── _tags
-│   └── ilc.md
-└── tags.html
+Para saber mais veja a página [Sobre](https://jultty.github.io/sobre).
 
-5 diretórios, 16 arquivos
-```
+Feito com:
+* Gerador de páginas estáticas [Jekyll](https://jekyllrb.com/)
+* Baseado no tema [Moving](https://github.com/huangyz0918/moving)
+* Fonte [Bitter](https://github.com/solmatas/Bitter)
+* Destaque de sintaxe com [highlight.js](https://highlightjs.org/)
+
