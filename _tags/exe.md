@@ -80,9 +80,7 @@ Um exemplo prático dessa capacidade é que uma linguagem interpretada pode faci
 
 Isso seria muito mais difícil em uma linguagem compilada como Java, onde todo código precisa estar dentro de uma estrutura maior.
 
-Se está lendo isso em um computador, você pode apertar a tecla `F12` para abrir as ferramentas de desenvolvimento do seu navegador. Se clicar então na opção `Console` você terá acesso a uma linha de comandos que aceita a linguagem JavaScript. 
-
-Na parte de baixo do console você encontrará uma área com um `>` onde é possível digitar texto. Essa é a **linha de comando** do seu navegador.
+Se está lendo isso em um computador, você pode apertar a tecla `F12` para abrir as ferramentas de desenvolvimento do seu navegador. Se clicar então na opção `Console`, na parte de baixo do console você encontrará uma área com um ou dois `>` onde é possível digitar texto. Essa é a **linha de comando** do seu navegador.
 
 Tente digitar os comandos abaixo nela e veja o que acontece:
 
