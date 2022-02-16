@@ -6,10 +6,7 @@ layout: default
 
 <p>
   {{ page.date | date: "%d/%m/%Y" }}
-  {% assign tag = site.tags | where: short_name, page.tags | first %}
-  {% if tag %}
-  &nbsp; <a href="{{ tag.url }}">#{{ tag.short_name }}</a>
-  {% endif %}
+  &nbsp; <a href="{{ site.url }}/tags/{{ page.tags }}">#{{ page.tags }}</a>
 </p>
 
 {{ content }}
