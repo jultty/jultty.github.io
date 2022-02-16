@@ -11,8 +11,8 @@ Isso pode ser representado com um diagrama, um desenho ou mesmo uma lista simple
 ```
 1. Recebe um número e um nome
 2. Verifica se o número já está cadastrado
-3. Se não estiver, salva um novo contato
-4. Se estiver, mostra o nome do contato
+3. Se estiver, mostra o nome do contato
+4. Se não estiver, salva um novo contato
 ```
 
 O exemplo acima é uma descrição em *narrativa* de como poderia funcionar um aplicativo de agenda.
