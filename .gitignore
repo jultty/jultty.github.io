@@ -6,3 +6,4 @@ vendor
 Gemfile.lock
 *.un~
 *.swp
+*.backup
