@@ -13,4 +13,5 @@ Feito com:
 * Baseado no tema [Moving](https://github.com/huangyz0918/moving)
 * Fonte [Bitter](https://github.com/solmatas/Bitter)
 * Destaque de sintaxe com [highlight.js](https://highlightjs.org/)
+* Geração local de gráficos com [mermaid-cli](https://mermaid-js.github.io/)
 

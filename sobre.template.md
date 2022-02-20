@@ -21,6 +21,23 @@ As explicações acima ainda contêm muitos termos que poderiam ser especificado
 
 Estas relações de dependência entre a explicação de um termo e outro formam uma *rede semântica*: uma representação das conexões entre significados e características que os diferenciam ou agrupam:
 
-![diagram](./sobre-1.svg)
+```mermaid
+graph LR;
+    classDef raiz fill: #F0CC50,stroke:#333,stroke-width:1px,font-family:Ubuntu;
+    classDef filha fill: #9268B6,stroke:#333,stroke-width:1px,font-family:Ubuntu,font-size:15px,color:#202020;
+
+    ILC --> interface;
+    ILC --> comando;
+    ILC ----> execução;
+    
+    execução --> entrada;
+    execução --> saída;
+
+    STI --> sistema
+    STI --> protocolo --> Internet
+
+    class ILC,execução,STI raiz;
+    class interface,comando,entrada,saída,sistema,protocolo,Internet filha;
+```
 
 Estudo técnico sobre como representar e documentar ligações semânticas usando [mermaid-js](https://github.com/mermaid-js/mermaid).
