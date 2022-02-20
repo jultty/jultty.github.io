@@ -1,5 +1,6 @@
 # semtec
 
+[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%204.2-teal.svg)](https://jekyllrb.com/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c616f122-87d3-4bbe-b075-e6cd54f2e66a/deploy-status)](https://app.netlify.com/sites/semtec/deploys)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%204.2-teal.svg)](https://jekyllrb.com/)
 [![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_message=online&url=https%3A%2F%2Fjultty.github.io)](https://jultty.github.io)
