@@ -23,21 +23,21 @@ Estas relações de dependência entre a explicação de um termo e outro formam
 
 ```mermaid
 graph LR;
-    classDef raiz fill: #F0CC50,stroke:#333,stroke-width:1px,font-family:Ubuntu;
-    classDef filha fill: #9268B6,stroke:#333,stroke-width:1px,font-family:Ubuntu,font-size:15px,color:#202020;
+    classDef raiz fill: #F0CC50,stroke:#929292,stroke-width:1px,font-family:Ubuntu,color:#202020;
+    classDef filha fill: #9268B6,stroke:#929292,stroke-width:1px,font-family:Ubuntu,font-size:14px,color:#202020;
 
-    ILC --> interface;
-    ILC --> comando;
-    ILC ----> execução;
+    ilc(ILC) --> int(interface);
+    ilc --> com(comando);
+    ilc ----> exe(execução);
     
-    execução --> entrada;
-    execução --> saída;
+    exe --> ent(entrada);
+    exe --> sai(saída);
 
-    STI --> sistema
-    STI --> protocolo --> Internet
+    tsi(TSI) --> sis(sistema)
+    tsi --> prot(protocolo) --> I(Internet)
 
-    class ILC,execução,STI raiz;
-    class interface,comando,entrada,saída,sistema,protocolo,Internet filha;
+    class ilc,exe,tsi raiz;
+    class int,com,ent,sai,sis,prot,I filha;
 ```
 
-Estudo técnico sobre como representar e documentar ligações semânticas usando [mermaid-js](https://github.com/mermaid-js/mermaid).
+Estudo técnico: representar e documentar ligações semânticas com [mermaid-js](https://github.com/mermaid-js/mermaid).

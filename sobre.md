@@ -21,6 +21,6 @@ As explicações acima ainda contêm muitos termos que poderiam ser especificado
 
 Estas relações de dependência entre a explicação de um termo e outro formam uma *rede semântica*: uma representação das conexões entre significados e características que os diferenciam ou agrupam:
 
-![diagram](./sobre-1.svg)
+![diagram](./assets/img/sobre-1.svg)
 
-Estudo técnico sobre como representar e documentar ligações semânticas usando [mermaid-js](https://github.com/mermaid-js/mermaid).
+Estudo técnico: representar e documentar ligações semânticas usando [mermaid-js](https://github.com/mermaid-js/mermaid).
