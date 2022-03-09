@@ -6,11 +6,9 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/jultty/jultty.github.io)](https://github.com/jultty/jultty.github.io/graphs/commit-activity)
 [![CodeFactor](https://www.codefactor.io/repository/github/jultty/jultty.github.io/badge)](https://www.codefactor.io/repository/github/jultty/jultty.github.io)
 
-Um caderno de pesquisa em computação e sistemas para Internet, feito com foco no registro dos significados e relações semânticas entre as palavras.
+Projeto de pesquisa em computação e sistemas para Internet. Armazena e visualiza significados e relações semânticas entre as palavras
 
-Voltado para o estudo de programação e outras áreas ligadas à computação, não é uma recurso que tenta ensinar como escrever código mas sim apoiar esse processo através de um mapeamento de termos relevantes.
-
-Para saber mais veja a página [Sobre](https://jultty.github.io/sobre).
+Os termos podem ser consultados pelas [páginas HTML](https://jultty.github.io) ou obtidos através de uma [API](https://jultty.github.io/api).
 
 Feito com:
 * Gerador de páginas estáticas [Jekyll](https://jekyllrb.com/)
