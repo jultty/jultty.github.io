@@ -23,27 +23,26 @@ body {
 
 #nav-menu {
     font-family: 'Fira Mono', monospace; 
+    font-size: 12px;
+    text-align: center;
     background-color: #303030;
     border-top: solid 1px #202020;
     position: fixed;
+    bottom: 0;
     height: 15px;
     width: 100%;
-    bottom: 0;
-    padding: 15px;
-    text-align: center;
-    margin-right: 0px;
-    left: 0;
+    padding: 15px 0;
     display: none;
 }
 
 nav ul {
-    margin-left: -20px;
+    padding: 0;
 }
 
 nav li {
 	color: #F1E9E5;
     text-align: center;
-    margin: 10px 10px;
+    margin: 10px;
     display: inline;
     margin-top: 10px;
 }
