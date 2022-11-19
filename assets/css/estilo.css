@@ -21,6 +21,26 @@ body {
     background-color: #222222;
 }
 
+#lang-notification {
+    width: 100%;
+    height: 35px;
+    background-color: #24565A;
+    display: none;
+}
+
+#lang-notification p, button {
+    margin: 6px;
+    display: inline;
+    font-size: 12px;
+}
+
+#lang-switch {}
+
+#lang-dismiss {
+    float: right;
+    margin-right: 10px;
+}
+
 #nav-menu {
     font-family: 'Fira Mono', monospace; 
     font-size: 12px;
@@ -151,5 +171,37 @@ em {
 
 pre {
 	color: #B9B9B9
+}
+
+@media (max-width: 545px) {
+    #lang-notification {
+        padding: 5px;
+        height: 70px;
+    }
+    
+    #lang-switch, #lang-dismiss, #lang-notification p {
+        float: left;
+    }
+}
+
+
+@media (max-width: 400px) {
+    #lang-notification {
+        padding: 5px;
+        height: 60px;
+    }
+    
+    #lang-switch, #lang-dismiss, #lang-notification p {
+        float: left;
+    }
+}
+
+@media (max-width: 340px) {
+    #lang-notification {
+        padding: 5px;
+        height: 85px;
+    }
+    
+    
 }
 
