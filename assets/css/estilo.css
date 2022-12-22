@@ -156,6 +156,15 @@ ul.lista li {
     margin-top: 5px;
 }
 
+.lista-hover {
+    opacity: 0;
+    transition: 1000ms;
+}
+
+ul.lista:hover .lista-hover {
+    opacity: 1;
+}
+
 .destaque {
     padding-left: 1%;
 	font-size: 18px;
