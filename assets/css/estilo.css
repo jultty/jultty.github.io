@@ -34,8 +34,6 @@ body {
     font-size: 12px;
 }
 
-#lang-switch {}
-
 #lang-dismiss {
     float: right;
     margin-right: 10px;
@@ -110,6 +108,16 @@ a {
 a:hover {
 	color: #39AEA9;
 	transition: 1500ms;
+}
+
+summary {
+    font-family: 'Fira Mono', monospace;
+    color: #B4B897;
+    margin: 20px auto;
+}
+
+details p {
+    transition: 2000ms;
 }
 
 .texto-pequeno {
